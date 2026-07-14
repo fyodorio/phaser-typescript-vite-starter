@@ -1,7 +1,7 @@
 {
-  "name": "gta",
+  "name": "phaser-typescript-vite-starter",
   "version": "0.0.0",
-  "description": "Minimal pixel-art platformer — Phaser 4 + Vite 8 + TypeScript 7.",
+  "description": "Minimal pixel-art platformer — Phaser 4 + TypeScript 7 + Vite 8.",
   "private": true,
   "type": "module",
   "scripts": {
