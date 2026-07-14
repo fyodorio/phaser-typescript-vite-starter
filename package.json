@@ -1,7 +1,31 @@
 {
   "name": "phaser-typescript-vite-starter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Minimal pixel-art platformer — Phaser 4 + TypeScript 7 + Vite 8.",
+  "author": "fyodorio <ping@fyodor.io> (https://github.com/fyodorio)",
+  "license": "MIT",
+  "homepage": "https://github.com/fyodorio/phaser-typescript-vite-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyodorio/phaser-typescript-vite-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fyodorio/phaser-typescript-vite-starter/issues"
+  },
+  "keywords": [
+    "phaser",
+    "phaser4",
+    "typescript",
+    "vite",
+    "game",
+    "gamedev",
+    "template",
+    "starter",
+    "boilerplate",
+    "pixel-art",
+    "platformer",
+    "html5-game"
+  ],
   "private": true,
   "type": "module",
   "scripts": {

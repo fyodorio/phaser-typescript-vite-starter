@@ -3,8 +3,8 @@
 A minimal pixel-art platformer, scaffolded clean on the latest stack:
 
 - **[Phaser 4](https://phaser.io/)** — 2D game framework
-- **[Vite 8](https://vite.dev/)** — dev server & bundler (Rolldown + Oxc under the hood)
 - **[TypeScript 7](https://www.typescriptlang.org/)** — type checking
+- **[Vite 8](https://vite.dev/)** — dev server & bundler (Rolldown + Oxc under the hood)
 
 No asset files: all sprites (player, ground, coins) are generated procedurally
 at runtime, so the project builds and runs out of the box.
