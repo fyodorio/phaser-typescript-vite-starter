@@ -1,4 +1,4 @@
-# gta
+# Modern Phaser+TypeScript+Vite starter
 
 A minimal pixel-art platformer, scaffolded clean on the latest stack:
 
