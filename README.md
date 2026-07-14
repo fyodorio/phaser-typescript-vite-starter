@@ -31,7 +31,7 @@ Collect the gold coins.
 
 ```
 index.html              # entry HTML, mounts #game-container
-vite.config.ts          # Vite config (Phaser split into its own chunk)
+vite.config.ts          # Vite config (dev server + build)
 tsconfig.json           # TS 7, bundler module resolution
 src/
   main.ts               # boots the game
@@ -44,7 +44,23 @@ src/
 
 ## Notes
 
-Vite 8 minifies with Oxc by default, so there's no `terser` dependency. To
-replace the placeholder art with real spritesheets, drop them in `public/` (or
+To replace the placeholder art with real spritesheets, drop them in `public/` (or
 import them) and swap the `generateTexture` calls in `Boot.ts` for `this.load.*`
 in a preloader.
+
+## Feedback & contributing
+
+This is a starter template, so the real test is what happens when **you** build
+on it. If you scaffolded a project from this and something broke, felt awkward,
+or was missing, I want to hear about it.
+
+- **Found a bug?** [Open an issue](../../issues/new/choose) — include your Node
+  version, OS, and a snippet or repro if you can.
+- **Something felt clunky in your own project?** That's the most useful feedback
+  there is. Tell me what you were trying to do.
+- **Not sure if it's a bug?** Open an issue anyway — no report is too small, and
+  questions are welcome.
+- **Want to fix it yourself?** PRs are welcome; open an issue first for anything
+  substantial so we can talk it through.
+
+I read every issue.
